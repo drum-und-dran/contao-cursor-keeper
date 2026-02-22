@@ -1,0 +1,15 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Dud\ContaoAceCursorKeeper\:
+    resource: ../../*
+    exclude: ../../{DependencyInjection,Entity,Tests,Resources}
+
+  Dud\ContaoAceCursorKeeper\EventListener\AddBackendAssetsListener:
+    arguments:
+      - '@contao.routing.scope_matcher'
+    tags:
+      - { name: kernel.event_listener, event: kernel.request, method: __invoke, priority: -50 }

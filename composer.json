@@ -1,0 +1,40 @@
+{
+  "name": "dud/contao-cursor-keeper",
+  "description": "Positionsspeicherung und -wiederherstellung im internen Contao Code-Editor.",
+  "type": "contao-bundle",
+  "homepage": "https://drum-und-dran.de",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Drum und Dran (Gunnar Haeuschkel)",
+      "homepage": "https://drum-und-dran.de"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "contao/core-bundle": "^5.3 || ^5.4 || ^5.5 || ^5.6 || ^5.7",
+    "contao/manager-plugin": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dud\\ContaoAceCursorKeeper\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Dud\\ContaoAceCursorKeeper\\ContaoManager\\Plugin"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/drum-und-dran"
+    }
+  ],
+  "keywords": [
+    "contao",
+    "backend",
+    "ace",
+    "editor",
+    "cursor",
+    "scroll"
+  ]
+}
