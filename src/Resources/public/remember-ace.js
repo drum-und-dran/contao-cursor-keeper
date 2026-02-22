@@ -1,5 +1,5 @@
 /* Drum und Dran, Gunnar Haeuschkel, Website: https://drum-und-dran.de
- * GitHub: https://github.com/drum-und-dran/dud/contao-cursor-keeper
+ * GitHub: https://github.com/drum-und-dran/contao-cursor-keeper
  */
 (() => {
   'use strict';
