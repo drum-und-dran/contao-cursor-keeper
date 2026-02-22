@@ -1,6 +1,6 @@
 # Contao Cursor Keeper
 
-**Short info (Contao Manager):** Position storage and restore in Contao’s internal code editor.
+Position storage and restore in Contao’s internal code editor.
 
 This small free extension is only meant to help you keep your focus when working with the internal code editor. After saving a file, the cursor stays where it was and no longer jumps back to the beginning of the file. No configuration is required — install and you’re done.
 

@@ -1,6 +1,6 @@
 # Contao Cursor Keeper
 
-**Kurzinformation (Contao-Manager):** Positionsspeicherung und -wiederherstellung im internen Contao Code-Editor.
+Positionsspeicherung und -wiederherstellung im internen Contao Code-Editor.
 
 Diese kleine kostenlose Erweiterung dient lediglich dazu, bei Arbeiten mit dem internen Code-Editor nicht den Fokus zu verlieren. Der Cursor bleibt nach dem Speichern der Datei an Ort und Stelle und springt nicht mehr an den Anfang der Datei. Es ist keine Konfiguration notwendig, installieren genügt.
 
