@@ -19,7 +19,7 @@ composer require dud/contao-cursor-keeper
 ```
 
 ## Compatibility
-- Contao >= **5.3**
+- Contao >= **5.7**
 - PHP >= **8.3**
 
 ## Donations
