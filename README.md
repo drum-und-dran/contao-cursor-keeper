@@ -2,7 +2,7 @@
 
 Position storage and restore in Contao’s internal code editor.
 
-This small free extension is only meant to help you keep your focus when working with the internal code editor. After saving a file, the cursor stays where it was and no longer jumps back to the beginning of the file. No configuration is required — install and you’re done.
+This small free extension is only meant to help you keep your focus when working with the internal code editor. After saving a file, the cursor stays where it was and no longer jumps back to the beginning of the file. No configuration is required — install and you’re done. Then open the file, place the cursor, save it and reopen it if necessary.
 
 If you like this extension, feel free to support development with a cup of coffee. Thank you!
 
